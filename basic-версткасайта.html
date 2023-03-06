@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <title>Basic</title>
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/LineIcons.css">
+    <link rel="stylesheet" href="./style/font-awesome.min.css">
 </head>
 <body>
     <img class="bg" src="images/banner-bg.svg" alt="banner-bg">
-    <header>
+    <a href="#header" class="up"><i class="lni-chevron-up"></i></a>
+    <header id="header">
         <div class="container header">
             <a class="logo" href="#"><img src="./images/logo.svg" alt=""></a>
             <nav>
-                <a href="#">Home</a>
-                <a href="#">Features</a>
-                <a href="#">About</a>
-                <a href="#">Why</a>
-                <a href="#">Team</a>
+                <a href="#header">Home</a>
+                <a href="#features">Features</a>
+                <a href="#about_us">About</a>
+                <a href="#why">Why</a>
+                <a href="#team">Team</a>
                 <a href="#">Blog</a>
             </nav>
             <a class="btn" href="#">Free Trial</a>
@@ -40,7 +43,7 @@
             <img src="./images/brand-5.png" alt="brand">
         </div>
     </div>
-    <div class="info">
+    <div id="features" class="info">
         <div class="container">
             <div class="title" ><b>Clean and simple design,</b> Comes with everything you need to get started!</div>
             <div class="cards">
@@ -75,7 +78,7 @@
 
         </div>
     </div>
-    <div class="about_us">
+    <div id="about_us" class="about_us">
         <div class="container">
             <div class="blocks">
                 <div class="block">
@@ -86,7 +89,7 @@
                 </div>
             </div>
             <div class="blocks">
-                <div class="block">
+                <div class="block revers">
                     <h1><b>Modern design</b> with Essential<br>Features</h1>
                     <span class="text_block">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, seiam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing.</span>
                     <a href="#" class="btn btn_block">Try it free</a>
@@ -103,5 +106,204 @@
             </div>
         </div>
     </div>
+    <div id="why" class="why">
+        <div class="container why_block">
+            <input id="model" type="checkbox">
+            <div class="bgv"></div>
+            <div class="black">
+                <iframe src="https://wikipedia.org/" width="900" height="600"></iframe>
+                <label for="model">X</label>
+            </div>
+            <div class="why_img">
+                <img src="./images/dots.svg" alt="dots">
+                <img src="./images/video.png" alt="video">
+                <label for="model">></label>
+            </div>
+                <h1><b>Cool facts</b> this about app</h1>
+                <span class="text_block">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, seiam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</span>
+            <div class="items">
+                <div class="bob">
+                    <div class="item">125K<br>Dowload</div>
+                </div>
+                <div class="bob">
+                    <div class="item">87K<br>Active Users</div>
+                </div>
+                <div class="bob">
+                    <div class="item">4.8<br>User raiting</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="team" class="team">
+        <div class="container">
+            <div class="title">Meet Our<b> Creative Team<br>Members</b></div>
+            <div class="team_blocks">
+                <div class="team_block">
+                    <div class="team_img">
+                        <img src="./images/team-1.png" alt="team">
+                        <div class="links">
+                            <a href="#"><i class="lni-facebook-filled"></i></a>
+                            <a href="#"><i class="lni-twitter-filled"></i></a>
+                            <a href="#"><i class="lni-instagram-filled"></i></a>
+                            <a href="#"><i class="lni-linkedin-filled"></i></a>
+                        </div>
+                    </div>
+                    <div class="team_text">
+                        <h3>Isabela Moreira</h3>
+                        <span>Founder and CEO</span>
+                    </div>
+                </div>
+                <div class="team_block">
+                    <div class="team_img">
+                        <img src="./images/team-2.png" alt="team">
+                        <div class="links">
+                            <a href="#"><i class="lni-facebook-filled"></i></a>
+                            <a href="#"><i class="lni-twitter-filled"></i></a>
+                            <a href="#"><i class="lni-instagram-filled"></i></a>
+                            <a href="#"><i class="lni-linkedin-filled"></i></a>
+                        </div>
+                    </div>
+                    <div class="team_text">
+                        <h3>Elon Musk</h3>
+                        <span>Sr. Software Engineer</span>
+                    </div>
+                </div>
+                <div class="team_block">
+                    <div class="team_img">
+                        <img src="./images/team-3.png" alt="team">
+                        <div class="links">
+                            <a href="#"><i class="lni-facebook-filled"></i></a>
+                            <a href="#"><i class="lni-twitter-filled"></i></a>
+                            <a href="#"><i class="lni-instagram-filled"></i></a>
+                            <a href="#"><i class="lni-linkedin-filled"></i></a>
+                        </div>
+                    </div>
+                    <div class="team_text">
+                        <h3>Fiona Smith</h3>
+                        <span>Business Development Manager</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="comment_block">
+        <div class="container">
+            <div class="title"><b>Users sharing</b> their <br> experience</div>
+            <div class="comments">
+                <div class="comment">
+                    <div class="comm_img">
+                        <i class="lni-quotation"></i>
+                        <div class="stars">
+                            <i class="lni-star-filled"></i><i class="lni-star-filled"></i><i class="lni-star-filled"></i><i class="lni-star-filled"></i><i class="lni-star-filled"></i>
+
+                        </div>
+                    </div>
+                    <span class="text_block">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, seiam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</span>
+                    <div class="author">
+                        <img class="user_photo" src="./images/author-1.png" alt="author">
+                        <img class="user_bg" src="./images/textimonial-shape.svg" alt="author">
+                        <h3>Fajar Siddiq</h3>
+                        <span class="text_block">COO, MarkerFlix</span>
+                    </div>
+                </div>
+                <div class="comment active">
+                    <div class="comm_img">
+                        <i class="lni-quotation"></i>
+                        <div class="stars">
+                            <i class="lni-star-filled"></i><i class="lni-star-filled"></i><i class="lni-star-filled"></i><i class="lni-star-filled"></i><i class="lni-star-filled"></i>
+
+                        </div>
+                    </div>
+                    <span class="text_block">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, seiam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</span>
+                    <div class="author">
+                        <img class="user_photo" src="./images/author-2.png" alt="author">
+                        <img class="user_bg" src="./images/textimonial-shape.svg" alt="author">
+                        <h3>Jenny Deo</h3>
+                        <span class="text_block">CEO, SpaceX</span>
+                    </div>
+                </div>
+                <div class="comment">
+                    <div class="comm_img">
+                        <i class="lni-quotation"></i>
+                        <div class="stars">
+                            <i class="lni-star-filled"></i><i class="lni-star-filled"></i><i class="lni-star-filled"></i><i class="lni-star-filled"></i><i class="lni-star-filled"></i>
+
+                        </div>
+                    </div>
+                    <span class="text_block">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, seiam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</span>
+                    <div class="author">
+                        <img class="user_photo" src="./images/author-3.png" alt="author">
+                        <img class="user_bg" src="./images/textimonial-shape.svg" alt="author">
+                        <h3>Marjin Otte</h3>
+                        <span class="text_block">UX Specialist, Yoast</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="recents_block">
+        <div class="container">
+            <div class="title">Our Recents <b>Blog Posts</b></div>
+            <div class="recents">
+                <div class="recent">
+                    <img class="recent_img" src="./images/blog-1.jpg" alt="blog">
+                    <div class="posted_recent">
+                        <div class="text_recent">
+                            <span class="posted">Posted by: Admin</span> <span class="posted_2">03 June, 2023</span>
+                            <span class="text_info_recent">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,  erat, sed diam voluptua.</span>
+                        </div>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="recent">
+                    <img class="recent_img" src="./images/blog-2.jpg" alt="blog">
+                    <div class="posted_recent">
+                        <div class="text_recent">
+                            <span class="posted">Posted by: Admin</span> <span class="posted_2">03 June, 2023</span>
+                            <span class="text_info_recent">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,  erat, sed diam voluptua.</span>
+                        </div>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+                <div class="recent">
+                    <img class="recent_img" src="./images/blog-3.jpg" alt="blog">
+                    <div class="posted_recent">
+                        <div class="text_recent">
+                            <span class="posted">Posted by: Admin</span> <span class="posted_2">03 June, 2023</span>
+                            <span class="text_info_recent">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,  erat, sed diam voluptua.</span>
+                        </div>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="contact_block">
+        <div class="title"><b>Subrscribe our Newsletter</b><br> get regular update</div>
+            <form>
+                <input type="text" placeholder="Enter email">
+                <input type="submit" value="Subscribe">
+            </form>
+    </div>
+    <footer>
+        <div class="footer_main">
+            <div class="footer_item">
+                <img  src="./images/logo.svg" alt="logo">
+                <span>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, seiam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</span>
+                <div class="links">
+                    <a href="#"><i class="lni-facebook-filled"></i></a>
+                    <a href="#"><i class="lni-twitter-filled"></i></a>
+                    <a href="#"><i class="lni-instagram-filled"></i></a>
+                    <a href="#"><i class="lni-linkedin-filled"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            Basic.com © 2023
+        </div>
+        <img class="footer_bg" src="./images/footer-bg.svg" alt="footer">
+    </footer>
 </body>
 </html>
